@@ -9,19 +9,15 @@ Content-Type: application/json
 POST http://localhost:3001/books HTTP/1.1
 Content-Type: application/json
 
-{
-    "title": "Harry Potter"
-}
+# {
+#     "title": "Harry Potter"
+# }
 
 ###
 
 # Update/Edit A Book By ID
 PUT http://localhost:3001/books/1 HTTP/1.1
 Content-Type: application/json
-
-{
-    "title": "Harry Modder"
-}
 
 ###
 
