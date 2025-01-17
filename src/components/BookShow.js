@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import useBooksContext from "../cusomHooks/useBooksContext";
+import useBooksContext from "../customHooks/useBooksContext";
 import BookEdit from "./BookEdit";
 
 function BookShow({book}) {
